@@ -15,3 +15,10 @@ sudo adduser steam
 sudo mkdir /opt/kf2/
 sudo chown steam:steam /opt/kf2/
 
+cp run.update.sh update.kf2.txt start.kf2.sh /opt/kf2/
+
+chown steam:steam /opt/kf2/run.update.sh
+chown steam:steam /opt/kf2/update.kf2.txt
+chown steam:steam /opt/kf2/start.kf2.sh
+
+
