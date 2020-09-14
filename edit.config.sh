@@ -9,9 +9,17 @@ echo "Please change inputs - 5s"
 
 sleep 5
 
-editconfig "ServerName=asdfasdf" "ServerName=test" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
-editconfig "GameLength=1" "GameLength=2" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
-editconfig "AdminPassword=asdfasdf" "AdminPassword=test" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
-editconfig "GamePassword=asdfasdf" "GamePassword=test" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
 
-editconfig "bEnabled=false" "bEnabled=true" /opt/kf2/KFGame/Config/KFWeb.ini
+servername=
+gamelength=2
+adminpassword=
+gamepassword=
+enablewebconsole=true
+
+editconfig "ServerName=Killing Floor 2 Server" "ServerName=$servername" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
+editconfig "GameLength=1" "GameLength=$gamelength" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
+editconfig "AdminPassword=" "AdminPassword=$adminpassword" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
+editconfig "GamePassword=" "GamePassword=$gamepassword" /opt/kf2/KFGame/Config/LinuxServer-KFGame.ini
+
+editconfig "bEnabled=false" "bEnabled=$enablewebconsole" /opt/kf2/KFGame/Config/KFWeb.ini
+
