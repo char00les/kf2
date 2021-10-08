@@ -2,16 +2,22 @@
 Killing Floor Server Scripts
 
 
-##Run Updates
+## Run Updates
 
 Execute as steam:
 ```
 run.update.sh
 ```
 
-##To Start KF2
+## To Start KF2
 
 Execute as steam:
 ```
 start.kf2.sh
+```
+
+## Join Server via IP
+
+```
+f3-> "open <insert ip>"
 ```
