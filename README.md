@@ -16,8 +16,21 @@ Execute as steam:
 start.kf2.sh
 ```
 
+## To Stop
+
+```
+screen -r 
+CTRL+C
+```
+
 ## Join Server via IP
 
 ```
 f3-> "open <insert ip>"
+```
+
+## Webadmin
+
+```
+<ip>:8080
 ```
