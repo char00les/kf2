@@ -32,5 +32,5 @@ f3-> "open <insert ip>"
 ## Webadmin
 
 ```
-<ip>:8080
+<ip>:8080/ServerAdmin/current/info
 ```
